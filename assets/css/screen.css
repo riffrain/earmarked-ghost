@@ -241,7 +241,7 @@ pre {
 }
 
 code, kbd, tt, var {
-	font: 19px/1.7894736842 Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-weight:  Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 }
 
 abbr, acronym {
