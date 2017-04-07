@@ -109,15 +109,16 @@ input,
 select,
 textarea {
 	color: #4a4a4a;
-	font-family: "open sans", sans-serif;
 	font-size: 16px;
 	font-size: 1.6rem;
 	line-height: 1.5;
+	font-family: helvetica neue, helvetica, arial, sans-serif;
+	font-weight: 200;
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6, strong, b, th {
-	font-weight: bold;
+	font-weight: 400;
 }
 
 h1 {
@@ -178,7 +179,7 @@ li > ol {
 }
 
 dt {
-	font-weight: bold;
+	font-weight: 400;
 }
 
 dd {
@@ -186,7 +187,7 @@ dd {
 }
 
 b, strong {
-	font-weight: bold;
+	font-weight: 400;
 }
 
 dfn, cite, em, i {
@@ -471,7 +472,7 @@ textarea {
 label {
 	display: block;
 	margin-bottom: 10px;
-	font-weight: bold;
+	font-weight: 400;
 }
 label[class*="radio"], label[class*="checkbox"] {
 	margin-bottom: 0;
@@ -508,7 +509,7 @@ a:focus {
 }
 
 .page-links a{
-	font-weight: bold;
+	font-weight: 400;
 }
 
 
@@ -532,7 +533,7 @@ Accessibility
 	color: #21759b;
 	display: block;
 	font-size: 14px;
-	font-weight: bold;
+	font-weight: 400;
 	height: auto;
 	left: 5px;
 	line-height: normal;
@@ -729,8 +730,9 @@ Menu
 	float: left;
 	width: 60%;
 	margin: 0;
-	font-weight: 700;
+	font-weight: 400;
 	z-index: 999;
+	min-height: 64px;
 }
 
 .main-navigation ul {
@@ -841,7 +843,7 @@ Menu
 		content: "\f0c9";
 		font-family: "FontAwesome";
 		margin-right: 4px;
-		font-weight: bold;
+		font-weight: 400;
 	}
 
 	.main-navigation ul {
@@ -1293,7 +1295,7 @@ Sidebar
 .widget-title,
 .widget-title a {
 	color: #aaa;
-	font-size: 20px;
+	font-size: 40px;
 	margin-bottom: 12px;
 }
 
@@ -1311,7 +1313,7 @@ Sidebar
 }
 
 .widget p a {
-	font-weight: bold;
+	font-weight: 400;
 }
 
 /* Search widget */
