@@ -3,6 +3,7 @@
 {{! The comment above "< default" means - insert everything in this file into
     the {body} of the default.hbs template, which contains our header/footer. }}
 
+{{#post}}
 <article class="{{post_class}} hentry">
 <div class="entry-meta">
     <div class="meta-date">{{date format="DD MMM YYYY"}}</div>
@@ -11,11 +12,9 @@
 
 <div class="content-wrapper">
     {{! Everything inside the #post tags pulls data from the post }}
-    {{#post}}
     <header class="entry-header">
         <h1 class="entry-title">{{{title}}}</h1>
     </header><!-- .entry-header -->
-
 
         <div class="entry-content">
             {{content}}
@@ -50,6 +49,6 @@
 
         </footer>
 
-    {{/post}}
 </div>
 </article>
+{{/post}}
