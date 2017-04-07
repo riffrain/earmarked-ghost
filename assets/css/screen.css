@@ -118,7 +118,7 @@ textarea {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6, strong, b, th {
-	font-weight: 400;
+	font-weight: 300;
 }
 
 h1 {
@@ -179,7 +179,7 @@ li > ol {
 }
 
 dt {
-	font-weight: 400;
+	font-weight: 300;
 }
 
 dd {
@@ -187,7 +187,7 @@ dd {
 }
 
 b, strong {
-	font-weight: 400;
+	font-weight: 300;
 }
 
 dfn, cite, em, i {
@@ -210,7 +210,7 @@ blockquote em, blockquote i, blockquote cite {
 blockquote cite,
 .quote-caption {
 	color: #808080;
-	font-weight: 400;
+	font-weight: 300;
 	letter-spacing: 0.15em;
 	padding-left: 0px;
 	position: relative;
@@ -472,7 +472,7 @@ textarea {
 label {
 	display: block;
 	margin-bottom: 10px;
-	font-weight: 400;
+	font-weight: 300;
 }
 label[class*="radio"], label[class*="checkbox"] {
 	margin-bottom: 0;
@@ -509,7 +509,7 @@ a:focus {
 }
 
 .page-links a{
-	font-weight: 400;
+	font-weight: 300;
 }
 
 
@@ -533,7 +533,7 @@ Accessibility
 	color: #21759b;
 	display: block;
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: 300;
 	height: auto;
 	left: 5px;
 	line-height: normal;
@@ -730,7 +730,7 @@ Menu
 	float: left;
 	width: 60%;
 	margin: 0;
-	font-weight: 400;
+	font-weight: 300;
 	z-index: 999;
 	min-height: 64px;
 }
@@ -843,7 +843,7 @@ Menu
 		content: "\f0c9";
 		font-family: "FontAwesome";
 		margin-right: 4px;
-		font-weight: 400;
+		font-weight: 300;
 	}
 
 	.main-navigation ul {
@@ -1313,7 +1313,7 @@ Sidebar
 }
 
 .widget p a {
-	font-weight: 400;
+	font-weight: 300;
 }
 
 /* Search widget */
@@ -1383,7 +1383,7 @@ Footer
 }
 
 .site-info a {
-	font-weight: bold;
+	font-weight: 300;
 }
 
 
@@ -1460,4 +1460,16 @@ Footer
 
 .newer-posts {
 	margin: 0 15px 0 0;
+}
+
+/*	-----------------------------------------------------------------------------
+	Other
+	----------------------------------------------------------------------------- */
+.cf:after {
+	content: '.';
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	font-style: 0;
 }
