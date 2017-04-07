@@ -598,7 +598,6 @@ Container
 --------------------------------------------------------------*/
 
 #page {
-	max-width: 1170px;
 	padding: 0 30px;
 	overflow: hidden;
 	background:  #fff;
@@ -606,7 +605,7 @@ Container
 
 .content-area {
 	float: left;
-	width: 65.470085470085%;
+	width: calc(100% - 350px);
 	overflow: hidden;
 }
 
@@ -617,8 +616,9 @@ Container
 .site-content .widget-area {
 	float: right;
 	overflow: hidden;
-	width: 31.111111111111%;
+	width: 350px;
 	font-size: 15px;
+	padding-left: 30px;
 }
 
 

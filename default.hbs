@@ -49,10 +49,11 @@
             </div><!-- #search -->
 
         </div><!-- .header-wrapper -->
-
+        {{#if @blog.cover}}
         <div class="header-image">
-            {{#if @blog.cover}}<a class="blog-cover" href="{{@blog.url}}"><img src="{{@blog.cover}}" alt="Blog" height="auto"/></a>{{/if}}
+            <a class="blog-cover" href="{{@blog.url}}"><img src="{{@blog.cover}}" alt="Blog" height="auto"/></a>
         </div><!-- .header-image -->
+        {{/if}}
     </header><!-- #masthead -->
 
     <div id="content" class="site-content">
