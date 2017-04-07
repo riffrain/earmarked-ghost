@@ -1465,6 +1465,7 @@ Footer
 /*	-----------------------------------------------------------------------------
 	Other
 	----------------------------------------------------------------------------- */
+/* clearfix  */
 .cf:after {
 	content: '.';
 	display: block;
@@ -1473,3 +1474,11 @@ Footer
 	visibility: hidden;
 	font-style: 0;
 }
+
+/* Disqus */
+#disqus_thread {
+	margin: 3em 0 0;
+	padding: 4em 0 0;
+	border-top: 1px solid #ccc;
+}
+
