@@ -494,14 +494,8 @@ a {
 	-webkit-transition: all 0.2s ease;
 	-moz-transition: all 0.2s ease;
 	transition: all 0.2s ease;
-	color: #4a4a4a;
+	color: #5656cc;
 	text-decoration: none;
-}
-
-a:hover,
-a:active,
-a:focus {
-	color: #903000;
 }
 
 .page-links{
@@ -1126,6 +1120,22 @@ Content
 .entry-content,
 .entry-summary {
 	margin: 1.5em 0 0;
+}
+
+.entry-content a:hover {
+	text-decoration: underline;
+}
+
+.entry-content h2:before {
+    display: inline-block;
+    content: '-';
+    width: 1em;
+}
+
+.entry-content h3:before {
+    display: inline-block;
+    content: '--';
+    width: 1em;
 }
 
 /* Pagination */
