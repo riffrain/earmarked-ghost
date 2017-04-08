@@ -20,7 +20,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
 	border: 0;
-	font-family: inherit;
+	font-family: "Noto Sans Japanese", sans-serif;
 	font-size: 100%;
 	font-style: inherit;
 	font-weight: inherit;
@@ -600,7 +600,7 @@ Container
 
 .content-area {
 	float: left;
-	width: calc(100% - 350px);
+	width: calc(100% - 250px);
 	overflow: hidden;
 }
 
@@ -611,7 +611,7 @@ Container
 .site-content .widget-area {
 	float: right;
 	overflow: hidden;
-	width: 350px;
+	width: 250px;
 	font-size: 15px;
 	padding-left: 30px;
 }
@@ -1307,6 +1307,7 @@ Sidebar
 	color: #aaa;
 	font-size: 40px;
 	margin-bottom: 12px;
+	font-family: helvetica neue, helvetica, arial, sans-serif;
 }
 
 .widget-title a img {

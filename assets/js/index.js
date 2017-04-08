@@ -27,6 +27,12 @@
         casperFullImg();
         $(window).smartresize(casperFullImg);
 
+		function loadGoogleWebFont() {
+			var webfonts = document.getElementById('gwebfont');
+			webfonts.rel = 'stylesheet';
+		}
+
+		loadGoogleWebFont();
     });
 
 }(jQuery));
