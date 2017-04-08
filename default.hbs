@@ -17,7 +17,6 @@
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
     <link rel="stylesheet" type="text/css" href="{{asset "fonts/font-awesome.css"}}" />
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="{{asset "js/jquery.ghostHunter.min.js"}}"></script>
 
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
@@ -45,14 +44,7 @@
 
     <div id="primary" class="content-area">
         <main id="main" class="site-main" role="main">
-            <section id="results"></section>
-                <script>
-                    $("#search-field").ghostHunter({
-                        results   : "#results"
-                    });
-                </script>
-
-                {{{body}}}
+          {{{body}}}
         </main><!-- #main -->
     </div><!-- #primary -->
 
