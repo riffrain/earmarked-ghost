@@ -1493,3 +1493,6 @@ Footer
 	border-top: 1px solid #ccc;
 }
 
+code, tt {
+	background-color: #f5f5f5;
+}
