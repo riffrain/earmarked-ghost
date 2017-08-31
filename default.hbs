@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" id="gwebfont" />
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
     <link rel="stylesheet" type="text/css" href="{{asset "fonts/font-awesome.css"}}" />
-
+    <meta name="google-site-verification" content="zsZtVC10PjXpxQUjArdODI0jhSbNAlYQWdXVEepMyQs" />
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
 </head>
@@ -32,9 +32,9 @@
             </nav><!-- #site-navigation -->
 
         </div><!-- .header-wrapper -->
-        {{#if @blog.cover}}
+        {{#if @blog.cover_image}}
         <div class="header-image">
-            <a class="blog-cover" href="{{@blog.url}}"><img src="{{@blog.cover}}" alt="Blog" height="auto"/></a>
+            <a class="blog-cover" href="{{@blog.url}}"><img src="{{@blog.cover_image}}" alt="Blog" height="auto"/></a>
         </div><!-- .header-image -->
         {{/if}}
     </header><!-- #masthead -->
@@ -76,9 +76,9 @@
     {{ghost_foot}}
 
     {{! The main JavaScript files}}
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
-    <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
-    <script type="text/javascript" src="{{asset "js/navigation.js"}}"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}" defer></script>
+    <script type="text/javascript" src="{{asset "js/index.js"}}" defer></script>
+    <script type="text/javascript" src="{{asset "js/navigation.js"}}" defer></script>
 </body>
 </html>

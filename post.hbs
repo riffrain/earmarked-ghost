@@ -5,17 +5,17 @@
 
 {{#post}}
 <article class="{{post_class}} hentry">
-<div class="entry-meta">
-    <div class="meta-date">{{date format="DD MMM YYYY"}}</div>
-    <div>{{tags prefix="on "}}</div>
-</div>
+    <div class="entry-meta">
+        <div class="meta-date">{{date format="DD MMM YYYY"}}</div>
+        <div>{{tags prefix="on "}}</div>
+    </div>
 
-<div class="content-wrapper">
+    <div class="content-wrapper">
     {{! Everything inside the #post tags pulls data from the post }}
-    <header class="entry-header">
-        <h1 class="entry-title">{{{title}}}</h1>
-    </header><!-- .entry-header -->
-
+        <header class="entry-header">
+            <h1 class="entry-title">{{{title}}}</h1>
+        </header><!-- .entry-header -->
+    
         <div class="entry-content">
             {{content}}
         </div>
@@ -49,24 +49,21 @@
 
         </footer>
 
-        <div id="disqus_thread"></div>  
-        <script>  
+        <div id="disqus_thread"></div>
+        <script>
         /*
-        var disqus_config = function () {  
-        this.page.url = {{url absolute="true"}}; // Replace PAGE_URL with your page's canonical URL variable  
-        this.page.identifier = 'ghost-{{id}}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable  
+        var disqus_config = function () {
+        this.page.url = {{url absolute="true"}}; // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'ghost-{{comment_id}}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
         };
         */
         (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-
-        s.src = '//o10e-org.disqus.com/embed.js';
-
-        s.setAttribute('data-timestamp', +new Date());  
-        (d.head || d.body).appendChild(s);
+            var d = document, s = d.createElement('script');
+            s.src = '//o10e-org.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
         })();
-        </script>  
-
+        </script>
 
 </div>
 </article>
